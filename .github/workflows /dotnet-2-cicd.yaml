@@ -3,7 +3,7 @@ name: dotnet-2-cicd
 on:
   push:
     paths:
-      - src/**
+      - '**'
     branches:
       - main
   workflow_dispatch:  
