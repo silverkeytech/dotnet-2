@@ -1,0 +1,5 @@
+replicaCount: 1
+image:
+  repository: registry.arc-center.run/silverkeytech/dotnet-2
+  pullPolicy: IfNotPresent
+  tag: dotnet-2-dev-latest
